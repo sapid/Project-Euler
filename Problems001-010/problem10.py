@@ -15,7 +15,7 @@ import os
 from math import sqrt
 
 # I tried using this implementation first. Theoretically, it works. It's very slow, though.
-def sieveEuler(limit):
+def sieveEratosthenes(limit):
 	primes = [2, 3, 5, 7, 11, 13]
 	i = 15
 	while i < limit:

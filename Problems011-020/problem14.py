@@ -6,8 +6,8 @@ problem14.py
 Created by whimsy on 2010-08-29.
 Copyright (c) 2010 Will Crawford. All rights reserved.
 
-This program attempts to find the longest sequence 
-based on the following recurrence relation:
+This program attempts to find the number that produces the
+longest sequence based on the following recurrence relation:
 f(n):
 1		(n==1)
 f(n/2)+1	(n%2==0)
@@ -30,7 +30,7 @@ def main():
 	while len(sequences) < 1000000:
 		n+=1
 		sequences.append(sequencer(n))
-	print max(sequences)
+	print sequences.index(max(sequences))
 	return 0
 
 

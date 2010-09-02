@@ -4,7 +4,6 @@
 problem10.py
 
 Created by whimsy on 2010-05-25.
-Copyright (c) 2010 Will Crawford. All rights reserved.
 
 This program should find the sum of all primes that are smaller than 2,000,000. 
 It currently uses Atkin's sieve.

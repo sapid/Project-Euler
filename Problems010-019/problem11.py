@@ -5,7 +5,6 @@ UNSOLVED
 problem11.py
 
 Created by whimsy on 2010-08-29.
-Copyright (c) 2010 . All rights reserved.
 
 This program should implement a 20x20 matrix of numbers,
 and find the greatest product of any four adjacent numbers.

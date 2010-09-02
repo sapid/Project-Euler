@@ -4,7 +4,6 @@
 problem14.py
 
 Created by whimsy on 2010-08-29.
-Copyright (c) 2010 Will Crawford. All rights reserved.
 
 This program attempts to find the number that produces the
 longest sequence based on the following recurrence relation:

@@ -4,7 +4,7 @@
 problem3.py
 
 Created by whimsy on 2010-04-26.
-Copyright (c) 2010 Will Crawford. All rights reserved.
+
 isprime(n) by vegaseat from daniweb.com (http://www.daniweb.com/code/snippet216880.html)
 This program is intended to...
 Determine the largest prime factor of the number 600851475143.

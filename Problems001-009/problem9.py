@@ -4,7 +4,7 @@
 problem9.py
 
 Created by whimsy on 2010-05-24.
-Copyright (c) 2010 Will Crawford. All rights reserved.
+
 This program finds "a" and "b" for Problem 9 of Project Euler, but does not find C
 although "a" and "b" must be correct by definition.
 

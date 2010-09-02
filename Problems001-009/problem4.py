@@ -4,7 +4,7 @@
 problem4.py
 
 Created by whimsy on 2010-05-10.
-Copyright (c) 2010 Will Crawford. All rights reserved.
+
 This program finds the largest palindrome made from the product of two 3-digit numbers.
 """
 

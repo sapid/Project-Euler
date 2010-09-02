@@ -4,7 +4,6 @@
 Problem2.py
 Created for Project Euler
 Created by whimsy on 2010-04-26.
-Copyright (c) 2010 Will Crawford. All rights reserved.
 
 This program is intended to...
 Find the sum of all the even-valued terms in the sequence which do not exceed four million.

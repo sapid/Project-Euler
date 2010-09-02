@@ -4,7 +4,7 @@
 problem6.py
 
 Created by whimsy on 2010-05-24.
-Copyright (c) 2010 Will Crawford. All rights reserved.
+
 This program finds the difference between the sum of the squares
  of the first one hundred natural numbers and the square of the sum.
 """

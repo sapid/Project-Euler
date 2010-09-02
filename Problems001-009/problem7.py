@@ -4,7 +4,7 @@
 problem7.py
 
 Created by whimsy on 2010-05-24.
-Copyright (c) 2010 Will Crawford. All rights reserved.
+
 This program finds the 10001st prime number.
 """
 

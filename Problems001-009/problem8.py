@@ -4,7 +4,7 @@
 problem8.py
 
 Created by whimsy on 2010-05-24.
-Copyright (c) 2010 Will Crawford. All rights reserved.
+
 This program should find the greatest product of five consecutive digits
 """
 

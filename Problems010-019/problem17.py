@@ -4,7 +4,6 @@
 problem17.py
 
 Created by whimsy on 2010-08-29.
-Copyright (c) 2010 Will Crawford. All rights reserved.
 
 """
 
@@ -28,8 +27,7 @@ def main():
 				hugestring += tens[int(current[0])]
 				hugestring += ones[int(current[1])]			
 		if len(current) == 3:
-			hugestring += ones[int(current[0])]
-			hugestring += 'hundred'
+			hugestring += ones[int(current[0])] + 'hundred'
 			if current[1] != '0' and current[2] != '0':
 				hugestring += 'and'
 			if current[1] == '1': # teens.

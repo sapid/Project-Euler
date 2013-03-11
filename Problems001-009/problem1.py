@@ -9,8 +9,6 @@ Created by whimsy on 2010-04-26.
 """
 This problem finds the sum of all numbers that are multiples of 3 or 5 below 1000.
 """
-import sys
-import os
 
 
 def main():
@@ -18,8 +16,8 @@ def main():
 	j=0
 	while i < 1000:
 		if i%3==0 or i%5==0:
-			j=j+i
-		i=i+1
+         j += i
+		i += 1
 	print j
 	return 0
 

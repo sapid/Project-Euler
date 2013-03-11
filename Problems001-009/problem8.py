@@ -8,9 +8,6 @@ Created by whimsy on 2010-05-24.
 This program should find the greatest product of five consecutive digits
 """
 
-import sys
-import os
-
 
 def main():
 	biggest = 0

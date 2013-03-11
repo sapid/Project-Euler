@@ -12,14 +12,12 @@ Magic formula by Mike Wilson; obtained by setting
 formulas against each other and isolating "C."
 """
 
-import sys
-import os
-
 
 def main():
 	for b in range(0,1000):
 		for a in range(0,b):
-			if (-10**6 == (2 * (a*b - a*10**3 - b*10**3) ) ):
+			# noinspection PyRedundantParentheses
+         if (-10**6 == (2 * (a*b - a*10**3 - b*10**3) ) ):
 				print a
 				print b
 				print " "

@@ -9,8 +9,6 @@ This program finds the difference between the sum of the squares
  of the first one hundred natural numbers and the square of the sum.
 """
 
-import sys
-import os
 
 def main():
 	sumsquare = 0
@@ -18,7 +16,7 @@ def main():
 	for a in range(0,101):
 		sumsquare += a**2
 		squaresum += a
-	squaresum = squaresum**2
+   squaresum **= 2
 	print squaresum - sumsquare
 	return 0
 

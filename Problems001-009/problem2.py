@@ -9,9 +9,6 @@ This program is intended to...
 Find the sum of all the even-valued terms in the sequence which do not exceed four million.
 """
 
-import sys
-import os
-
 phi = (1 + 5**0.5) / 2
 
 def fib(n):
@@ -22,8 +19,8 @@ def main():
 	i=0
 	while fib(i) < 4000000:
 		if fib(i)%2==0:
-			j=j+fib(i)
-		i=i+1
+         j += fib(i)
+		i += 1
 	print j
 	return 0
 

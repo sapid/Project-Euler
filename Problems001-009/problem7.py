@@ -8,9 +8,6 @@ Created by whimsy on 2010-05-24.
 This program finds the 10001st prime number.
 """
 
-import sys
-import os
-
 
 def main():
 	# We'll skip the first six primes.

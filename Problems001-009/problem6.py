@@ -11,15 +11,15 @@ This program finds the difference between the sum of the squares
 
 
 def main():
-	sumsquare = 0
-	squaresum = 0
-	for a in range(0,101):
-		sumsquare += a**2
-		squaresum += a
+   sumsquare = 0
+   squaresum = 0
+   for a in range(0, 101):
+      sumsquare += a ** 2
+      squaresum += a
    squaresum **= 2
-	print squaresum - sumsquare
-	return 0
+   print squaresum - sumsquare
+   return 0
 
 if __name__ == '__main__':
-	main()
+   main()
 

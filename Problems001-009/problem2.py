@@ -21,9 +21,8 @@ def main():
       if fib(i) % 2 == 0:
          j += fib(i)
          i += 1
-   print j
-   return 0
+   return j
 
 if __name__ == '__main__':
-   main()
+   print main()
 
